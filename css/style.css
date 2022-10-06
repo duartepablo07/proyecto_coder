@@ -1,0 +1,60 @@
+*/VARIABLE*/
+
+:root {
+    /* Palette*/
+    --primary: #EC1C24;
+    --secondary: #080808;
+    --light: #FDFDFD;
+    --accent: #D20A46;
+
+    /* Font Sizes */
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.2em;
+    --text-sm: 1.6em;
+    --text-xs: 1.2em;
+    
+    /* Spacings */
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+
+}
+*/IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*/NORMALIZE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    font-size: var(--text-sm)
+    color var(--secondary)
+ 
+}
+a {
+    font-size: var(--text-md);
+    text-decoration: none;
+    color: var(--secondary);
+}
+ul {
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: #EC1C24;
+}
+.footer{
+    background-color: #EC1C24;
+}
+.division_inicio{
+    background-color: #EC1C24;
+}
