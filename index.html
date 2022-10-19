@@ -5,89 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INDEPENDIENTE</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a href="./index.html">
-                <img src="./imagenes/escudo independiente.png" alt="">
-                <h1>
-                    INDEPENDIENTE
-                </h1>
-            </a>
-            <ul class="menu">
-                <li>
-                    <a
-                     href="./paginas/Historia.html">HISTORIA
-                    </a>
-                </li>
-                <li>
-                    <a
-                     href="./paginas/Futbol.html">NOTICIAS
-
-                    </a>
-                </li>
-                <li>
-                    <a
-                     href="./paginas/galeria.html">GALERIA
-
-                    </a>
-                </li>
-                <li>
-                    <a
-                     href="./paginas/contacto.html">CONTACTO
-
-                    </a>
-                </li>
-                
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid container">
+                <a class="navbar-brand d-flex" href="./index.html">
+                    <img src="./imagenes/escudo independiente.png" alt="">
+                    <h1 class="d-flex align-items-center">
+                        INDEPENDIENTE
+                    </h1>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link btn btn-light" aria-current="page" href="./paginas/Historia.html">HISTORIA</a>
+                  <a class="nav-link btn btn-light" aria-current="page" href="./paginas/futbol.html">NOTICIAS </a>
+                  <a class="nav-link btn btn-light" aria-current="page" href="./paginas/galeria.html">GALERIA</a>
+                  <a class="nav-link btn btn-light" aria-current="page" href="./paginas/contacto.html">CONTACTO</a>
+                </div>
+              </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <section id= banner> 
-        <img src="./imagenes/rey de copas.jpg" alt="">
+    <main >
+        <section id= banner class="container"> 
+            <img src="./imagenes/rey de copas.jpg" class="img-fluid" alt="">
         </section>
-        <div class="division_inicio">
-        <h2>
+        <div class="division_inicio bg-danger">
+        <h2 class="container text-center">
             LA HISTORIA TE DICE QUIEN SOS
         </h2>
         </div>
         <section>
-        <ul>
-            <li>
-                <a
-                 href="./paginas/futbol.html">NOTICIAS
-                 <img src="./imagenes/noticias.jpg" alt="">
-
-                </a>
-            </li>
-            <li>
-                <a
-                 href="">SEDES
-                 <img src="./imagenes/sedes.jpg" alt="">
-
-                </a>
-            </li>
-            <li>
-                <a
-                 href="">SOCIOS
-                 <img src="./imagenes/socios.jpg" alt="">
-
-                </a>
-            </li>
-        </ul>
-    </section>
+            <div class="container-fluid container">
+                <a href="./paginas/futbol.html"><img src="./imagenes/noticias bn.jpg"  class="img-fluid" alt=""></a>
+                <a href=""><img src="./imagenes/sedes bn.jpg" class="img-fluid" alt=""></a>
+                <a href=""><img src="./imagenes/socios bn 1.jpg" class="img-fluid" alt=""></a>
+            </div>
+        </section>
     </main>
-    <footer class="footer">
-        <p>
-            seguinos
-        </p>
-        <img src="./imagenes/logo instagram.png" alt="">
-        <img src="./imagenes/logo face.png" alt="">
-        <img src="./imagenes/logo twiter.png" alt="">
-        <img src="./imagenes/logo youtube.png" alt="">
-    </footer>
-    
+    <footer class="d-flex p-2 bg-danger">
+        <div class="container">
+            <p class="d-flex align-items-center">
+                SEGUINOS
+            </p>
+            <div>
+                <img src="./imagenes/logo instagram.png" alt="">
+                <img src="./imagenes/logo face.png" alt="">
+                <img src="./imagenes/logo twiter.png" alt="">
+                <img src="./imagenes/logo youtube.png" alt=""> 
+            </div>
+        </div>
+        
+     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
